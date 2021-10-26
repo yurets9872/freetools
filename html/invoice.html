@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- <link rel="stylesheet" href="../style.css"> -->
+  <link rel="stylesheet" href="../css/invoice.css">
+  <title>Invoice</title>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h2>Invoice <span contenteditable="true">#001</span></h2>
+    </div>
+    <div class="dates">
+      <div class="issue_date">
+        <div class="date_title">Issue date</div>
+        <div contenteditable="true" class="date_item">11/07/2021</div>
+      </div>
+      <div class="due_date">
+        <div class="date_title">Due date</div>
+        <div contenteditable="true" class="date_item">15/07/2021</div>
+      </div>
+    </div>
+    <div class="contact_details">
+      <div class="receiver_details">
+        BILL TO
+        <div contenteditable="true" class="details_title">Daniel Witzel</div>
+        <div contenteditable="true" class="details_item">36432 Agave Rd, Lake Elsinore, CA,
+92532</div>
+        <!-- <div contenteditable="true" class="details_item">State Zip</div>
+        <div contenteditable="true" class="details_item">Country</div> -->
+        <div contenteditable="true" class="details_item">daniel@myautomationgenius.com</div>
+      </div>
+      <div class="issuer_details">
+        FROM
+        <div contenteditable="true" class="details_title">Tsyganchuk Yury</div>
+        <div contenteditable="true" class="details_item">Nebesna Sotnya Street, 1a</div>
+        <div contenteditable="true" class="details_item">58022, Chernivtsi</div>
+        <div contenteditable="true" class="details_item">Ukraine</div>
+        <div contenteditable="true" class="details_item"> </div>
+      </div>
+    </div>
+    <div class="table">
+      <div class="table_row table_heading">
+        <div class="col_item">Item</div>
+        <div class="col_combo">
+          <div class="col_number">Q-ty</div>
+          <div class="col_rate">Rate</div>
+          <div class="col_subtotal">Subtotal</div>
+        </div>
+      </div>
+      <div class="table_row">
+        <div contenteditable="true" class="col_item">Name</div>
+        <div class="col_combo">
+          <div contenteditable="true" class="col_number">2</div>
+          <div contenteditable="true" class="col_rate">$25</div>
+          <div contenteditable="true" class="col_subtotal">$50</div>
+        </div>
+      </div>
+      <div class="table_row table_footer">
+        <div class="col_item">Notes</div>
+        <div class="col_combo">
+          <div class="col_number">Q-ty</div>
+          <div class="col_rate">Rate</div>
+          <div class="col_subtotal">Total</div>
+        </div>
+      </div>
+      <div class="table_row, table_total">
+        <div contenteditable="true" class="col_item"> </div>
+        <div class="col_combo">
+          <div contenteditable="true" class="col_number">2</div>
+          <div contenteditable="true" class="col_rate">$25</div>
+          <div contenteditable="true" class="col_subtotal, col_total">$50</div>
+        </div>
+      </div>
+    </div>
+    <div class="summary"></div>
+  </div>
+</body>
+</html>

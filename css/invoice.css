@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 100%;
+  max-width: 794px;
+  height: 1123px;
+  background: #fff;
+  margin: 0px auto;
+  padding: 32px;
+  /* border: 16px solid #f4f4f4; */
+  /* box-shadow: 12px 24px 40px rgba(0, 0, 0, 0.08); */
+}
+
+.heading h2{
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #101010;
+  margin-bottom: 32px;
+}
+
+.dates {
+  width: 100%;
+  display: flex;
+}
+.issue_date, .due_date{
+  flex: 1;
+}
+.date_title {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #757575;
+}
+.date_item {
+  margin-top: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #212121;
+}
+.contact_details {
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+}
+.receiver_details, .issuer_details{
+  flex: 1;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #757575;
+}
+
+.details_title {
+  margin-top: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #212121;
+}
+.details_item {
+  margin-top: 4px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #212121;
+}
+
+.table {
+  width: 100%;
+  margin-top: 40px;
+}
+.table_row {
+  flex-direction: row;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #212121;
+}
+.table_heading {
+  border-bottom: 1px solid #e8e8e8;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #757575;
+  text-transform: uppercase;
+}
+.table_footer {
+  border-top: 1px solid #e8e8e8;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #757575;
+  text-transform: uppercase;
+}
+.table_total {
+  flex-direction: row;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #212121;
+}
+.col_item, .col_rate, .col_combo, .col_number, .col_subtotal, .col_total{
+  flex: 1;
+}
+.col_combo {
+  flex-direction: row;
+  display: flex;
+}
+.col_subtotal {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.col_total {
+  justify-content: flex-end;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #212121;
+}
