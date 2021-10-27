@@ -21,6 +21,25 @@
   cursor: pointer;
 }
 
+.button_plain {
+  padding: 12px 16px;
+  background-color: #fff;
+  border-radius:4px;
+  border: 1px solid #E9EAE6;
+  color: #6B6B6B;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.button_plain:hover {
+  background-color: #F7F8F7;
+  color: #000000;
+  cursor: pointer;
+}
+
 .text_field {
   padding: 10px 16px;
   width: 100%;
@@ -34,7 +53,7 @@
   line-height: 20px;
   color: #212121;
   margin-top: 12px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .text_field:hover {

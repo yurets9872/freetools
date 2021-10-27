@@ -1,15 +1,16 @@
 
 .container {
-  display: flex;
+  display: column;
   flex-direction: row;
 }
 
 .form_wrapper{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   /* justify-content: space-between; */
   align-items: flex-start;
   margin-right: 40px;
+  margin-bottom: 32px;
 }
 
 .content {
@@ -20,8 +21,16 @@
 
 .data_input {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-end;
+}
+
+.input_group {
+  margin-right: 24px;
+}
+
+.result_button {
+  margin-right: 16px;
 }
 
 .gr_input {
@@ -30,7 +39,7 @@
 
 .result_button {
   width: 100%;
-  margin-top: 24px;
+  /* margin-top: 24px; */
 }
 
 .results_box {
@@ -286,4 +295,39 @@
   font-size: 20px;
   line-height: calc();
   margin-left: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .text_field {
+    max-width: 112px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .form_wrapper {
+    margin-right: 0;
+  }
+  .data_input {
+    width: 100%;
+    flex-direction: column;
+  }
+  .input_group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .text_field {
+    max-width: 500px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .result_button {
+    margin-right: 0px;
+    margin-top: 8px;
+    padding: 16px 16px;
+  }
+  .reset_button {
+    width: 100%;
+    margin-top: 16px;
+  }
 }
